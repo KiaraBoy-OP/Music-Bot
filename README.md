@@ -1,6 +1,8 @@
 <h3 align="center"><strong><code>Music_Player 🎧</code></strong></h3>
 
-<center><img src="https://telegra.ph/file/afd905ccd1d23561ad44f.jpg" alt="Unable To serve You"></center>
+<p align="center">
+  <img src="https://telegra.ph/file/afd905ccd1d23561ad44f.jpg" alt="Unable To serve You">
+</p>
 <blockquote>
 <strong><i>❍&nbsp;Telegram music bot! Use it on your own risk we are not responsible for any kind of problems 💫💝!</i></strong><br><br>
 </blockquote>
