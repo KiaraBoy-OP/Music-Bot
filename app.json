@@ -1,0 +1,43 @@
+{
+  "name": "Music Player",
+  "description": "Telegram's Video Chat",
+  "keywords": ["python", "telegram"],
+  "logo": "https://telegra.ph/file/afd905ccd1d23561ad44f.jpg",
+  "repository": "https://github.com/rezoxmod/Music-Player",
+  "stack": "container",
+  "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    }
+  ],
+  "env": {
+        "BOT_TOKEN": {
+            "description": "A bot token from @BotFather",
+            "required": true
+        },
+        "API_ID": {
+            "description": "App ID from my.telegram.org/apps",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "App Hash from my.telegram.org/apps",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "Owner's numeric ID",
+            "required": true
+        }
+    }
+}
+
